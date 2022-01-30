@@ -1,8 +1,9 @@
 # anti-league-discordbot
 harrasses imbeciles for playing league of legends
-
+**WIP**
 <h2>Running</h2>
 <br>
-First set TOKEN and CHANNEL_ID in the .env file
+Currently you need to build the image your self.
 <br>
-Then execute <code>run.bat</code> or <code>run.sh</code>
+Once you've built it you need to mount a .env file in the root directory, it will have your configs
+<br>

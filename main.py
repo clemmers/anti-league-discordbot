@@ -1,12 +1,10 @@
 
 import discord
 intents = discord.Intents.all()
-import os
 import requests
 import json
 from decouple import config
-#from apikeys import TOKEN
-#from replit import db
+
 from discord.ext import commands
 
 activity = discord.Activity(type=discord.ActivityType.watching, name="hentai")
