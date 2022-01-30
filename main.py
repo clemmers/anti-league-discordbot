@@ -22,7 +22,6 @@ async def hello(ctx):
 async def on_member_update(before, after):
     games = ["league of legends"]
     if after.activity and after.activity.name.lower() in games:
-            #channel = discord.utils.get(after.guild.channels, name='sexybot')
             channel = client.get_channel(886329545551130664)
             await channel.send(f"{after.mention} league :sick:")
 
