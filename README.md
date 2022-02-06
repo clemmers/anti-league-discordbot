@@ -3,7 +3,7 @@ harrasses imbeciles for playing league of legends
 
 ## Running
 
-First set TOKEN and GUILD_ID in the .env file
+First set TOKEN and GUILD_ID in the .env file<br>
 Ensure that Presence Intent and Server Members Intent are enabled
 in the bot page of your discord developer portal
 
