@@ -1,6 +1,9 @@
 # anti-league-discordbot
 harrasses imbeciles for playing league of legends
 
+Note: venv is only compatible with unix right now
+ill make one for windows soon
+
 ## Running
 
 First set TOKEN and GUILD_ID in the .env file<br>
