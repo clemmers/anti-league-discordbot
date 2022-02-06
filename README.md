@@ -1,7 +1,6 @@
 # anti-league-discordbot
 harrasses imbeciles for playing league of legends
 
-<<<<<<< Updated upstream
 <h2>Running</h2>
 <br>
 First set TOKEN and GUILD_ID in the .env file
