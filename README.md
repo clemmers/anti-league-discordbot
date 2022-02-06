@@ -17,7 +17,7 @@ is playing league and has Activity Status enabled.
 them for playing league)
 
 
-<h2>Commands</h2> *You need server administrator to run commands*
-**$zeroTolerance** enable/disable - if enabled, anyone who plays league
+<h2>Commands</h2> <i>You need server administrator to run commands</i>
+<bold>$zeroTolerance</bold> enable/disable - if enabled, anyone who plays league
 will be permanently banned from the server. Disabled by default.
 
