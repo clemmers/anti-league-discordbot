@@ -1,13 +1,13 @@
 # anti-league-discordbot
 harrasses imbeciles for playing league of legends
 
-<h2>Running</h2>
-<br>
+## Running
+
 First set TOKEN and GUILD_ID in the .env file
 Ensure that Presence Intent and Server Members Intent are enabled
 in the bot page of your discord developer portal
-<br>
-Then execute <code>run.bat</code> or <code>run.sh</code>
+
+Then execute '''run.bat''' or '''run.sh'''
 
 
 On startup, the bot will create a channel called "channel-of-shame" if not
@@ -17,7 +17,7 @@ is playing league and has Activity Status enabled.
 them for playing league)
 
 
-<h2>Commands</h2> <i>You need server administrator to run commands</i>
-<bold>$zeroTolerance</bold> enable/disable - if enabled, anyone who plays league
+## Commands *You need server administrator to run commands*
+**$zeroTolerance** enable/disable - if enabled, anyone who plays league
 will be permanently banned from the server. Disabled by default.
 
