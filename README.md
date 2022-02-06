@@ -18,7 +18,7 @@ them for playing league)
 
 
 ## Commands 
-*You need server administrator to run commands*
+*You need server administrator to run commands*<br>
 **$zeroTolerance** enable/disable - if enabled, anyone who plays league
 will be permanently banned from the server. Disabled by default.
 
