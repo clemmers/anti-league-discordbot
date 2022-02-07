@@ -1,1 +1,2 @@
-.\venv\Scripts\python.exe .\main.py
+.\venv-win\Scripts\python.exe .\main.py
+pause
