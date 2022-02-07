@@ -1,8 +1,6 @@
 # anti-league-discordbot
 harrasses imbeciles for playing league of legends
 
-Note: venv is only compatible with unix right now
-ill make one for windows soon
 
 ## Running
 
@@ -21,7 +19,7 @@ them for playing league)
 
 
 ## Commands 
-*You need server administrator to run commands*<br>
+*You need server administrator to run commands*<br><br>
 **$zeroTolerance** enable/disable - if enabled, anyone who plays league
 will be permanently banned from the server. Disabled by default.
 
