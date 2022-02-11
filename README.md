@@ -1,5 +1,6 @@
 # anti-league-discordbot
 [![Docker Image CI](https://github.com/chriss-clem/anti-league-discordbot/actions/workflows/docker-image.yml/badge.svg?branch=main)](https://github.com/chriss-clem/anti-league-discordbot/actions/workflows/docker-image.yml)
+<br>
 harrasses imbeciles for playing league of legends
 
 
