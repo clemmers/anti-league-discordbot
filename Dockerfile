@@ -2,4 +2,5 @@ FROM python:3
 
 ADD main.py /
 ADD venv-unix /
-CMD [ "venv-unix/bin/python3", "./main.py"]
+CMD ["python", "-m", "pip", "install", "-r", "requirements.txt"]
+CMD [ "PYTHON", "./main.py"]
