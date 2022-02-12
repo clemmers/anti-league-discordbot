@@ -28,7 +28,7 @@ the games.<br><br>
 
 ## Hosting
 
-*If you wish to host this bot by yourself, follow below instructions*<br>
+*If you wish to host this bot yourself, follow below instructions*<br>
 First set TOKEN in the .env file<br>
 Ensure that Presence Intent and Server Members Intent are enabled
 in the bot page of your discord developer portal
