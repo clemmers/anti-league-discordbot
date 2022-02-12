@@ -3,8 +3,8 @@
 <br>
 harrasses imbeciles for playing league of legends
 
-***To invite the bot into your sever, paste the following link into your browser***
-<code>https://discord.com/api/oauth2/authorize?client_id=937062519317598248&permissions=8&scope=bot</code>
+***To invite the bot into your sever, paste the following link into your browser***<br>
+<code>https://discord.com/api/oauth2/authorize?client_id=937062519317598248&permissions=8&scope=bot</code><br><br>
 
 When joining a server, the bot will create a channel called "channel-of-shame"
 if not already created. In that channel, the bot will harrass anyone who
@@ -33,8 +33,8 @@ First set TOKEN in the .env file<br>
 Ensure that Presence Intent and Server Members Intent are enabled
 in the bot page of your discord developer portal
 
-Install the following packages using pip
-<code>pip install python-decouple</code>
-<code>pip install discord</code>
-Then execute your main.py
+Install the following packages using pip<br>
+<code>pip install python-decouple</code><br>
+<code>pip install discord</code><br>
+Then, execute your main.py
 
