@@ -17,7 +17,6 @@ async def on_ready():
   print("Branch version " + discord.__version__)
 
 async def createChannel(guild):
-  
   for i in guild.channels:
     if(i.name == 'channel-of-shame'):
       channel = i
@@ -30,6 +29,9 @@ async def createChannel(guild):
 
 @client.command()
 async def games(ctx, style = " ", game = " "):
+  if not ctx.message.author.guild_permissions.administrator:
+    await ctx.send("no")
+    return
   if style.lower() == 'add' and game != " ":
     with open(f'{os.getcwd()}/guilds/{ctx.guild.id}.json', 'r') as f:
       data = json.load(f)
@@ -62,6 +64,9 @@ async def games(ctx, style = " ", game = " "):
 
 @client.command()
 async def resetSettingsToDefault(ctx):
+  if not ctx.message.author.guild_permissions.administrator:
+    await ctx.send("no")
+    return
   try:
     os.remove(f'{os.getcwd()}/guilds/{ctx.guild.id}.json')
   except OSError:
@@ -72,12 +77,12 @@ async def resetSettingsToDefault(ctx):
 
 @client.command()
 async def zeroTolerance(ctx, boo=" "):
-  f = open(f'{os.getcwd()}/guilds/{ctx.guild.id}.json')
-  data = json.load(f)
-  tolerance = data.get('tolerance')
   if not ctx.message.author.guild_permissions.administrator:
     await ctx.send("no")
     return
+  f = open(f'{os.getcwd()}/guilds/{ctx.guild.id}.json')
+  data = json.load(f)
+  tolerance = data.get('tolerance')
   if boo.lower() == 'enable' and tolerance == True:
     await ctx.send("Zero Tolerance initiated. Anyone who plays league in this server will be **permanently** banned!")
     tolerance = False
