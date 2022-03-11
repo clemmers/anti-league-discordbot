@@ -127,8 +127,6 @@ async def on_member_update(before, after):
     
     if before.activity is None:
       await punish(after, data)
-    elif not before.activity.name.lower() in games:
-      await punish(after, data)
 
 
 async def punish(after, data):
